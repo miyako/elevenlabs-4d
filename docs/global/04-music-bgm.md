@@ -1,5 +1,11 @@
 # Background music (Suno)
 
+## Licensing: check the plan before generating
+
+- As we understand Suno's terms, tracks made on the **free plan are owned by Suno and limited to non-commercial use**, and upgrading later does not change that for tracks already made; tracks made while on a **paid plan** are owned by the subscriber with commercial use. Terms change: read them on the dates you generate.
+- For a product/marketing demo, subscribe **before** generating the tracks you will ship. Do not redistribute Suno tracks (for example in a public repository) unless the plan allows it.
+- Same idea for ElevenLabs: commercial use of generated speech depends on the plan used.
+
 ## Prompting
 
 - Use Custom mode with Instrumental on. Put an **Exclude** list (vocals, EDM drop, trap hi-hats, harsh synth, repetitive loop…).
