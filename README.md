@@ -9,6 +9,7 @@ docs/global/   workflow, ElevenLabs, video shortening, music, QA        (any lan
 docs/ja/       Japanese narration: wording, pronunciation, 4D brand      (language specific)
 prompts/       voice-design prompt and Suno style prompts (copy/paste)
 skills/        Claude Code skills (SKILL.md) that point at the docs
+assets/music/  the three Suno tracks used in the 4D demo (all rights reserved)
 tools/         reference scripts used in the project (ffmpeg, Whisper, ElevenLabs, librosa)
 ```
 
@@ -20,6 +21,12 @@ To add another language, create `docs/<lang>/` and a `skills/<lang>-narration/` 
 2. Copy `skills/*` into the project's `.claude/skills/` (or your user skills folder) so Claude Code finds them.
 3. Set up the ElevenLabs key with `npx -y @elevenlabs/cli@latest onboard init` (stores `ELEVENLABS_API_KEY` in `.env`; never paste keys into chat or commit `.env`).
 4. Scripts in `tools/` expect the layout `output/10min/` (see `tools/README.md`); adapt paths rather than rewriting the logic.
+
+## Licenses
+
+- Code, docs, prompts and skills: **MIT** (`LICENSE`).
+- `assets/music/`: **all rights reserved**, see `assets/music/LICENSE.md` (the MIT license does not cover these files).
+- Not included: the demo footage and the narration audio (the footage belongs to its owner; ElevenLabs output is governed by the plan used to generate it).
 
 ## Status
 

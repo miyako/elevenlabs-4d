@@ -6,3 +6,4 @@
 *.raw
 *.npy
 __pycache__/
+!assets/music/*.m4a
